@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --BG-Color: #081c29;
+    --main-Color: #28557a;
+    --text-color: #fff;
+
+    --main-font: 'Lilita One';
+    --font: 'Archivo Black';
+}
+body{
+    background-color: var(--BG-Color);
+}
+.home{
+    height: 100%;
+    padding: 10rem 9%;
+}
+.home{
+    display: flex;
+    margin-top: -8rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 100 px var(--main-Color);
+}
+.home-image img{
+    width: 500px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px;
+    padding: 10px;
+}
+
+.home .Myname h3{
+    margin-left: 30rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: var(--font);
+    color: var(--text-color);
+}
+.home h3{
+    float: right;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: var(--font);
+    color: var(--text-color);
+}
+.home h3 span{
+    color: var(--main-Color);
+}
+.home h1{
+    margin-left: 30rem;
+    color: var(--main-Color);
+    font-size: 100px;
+    line-height: 1.3;
+    font-family: var(--main-font);
+}
+.workbtn{
+    float: right;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;  
+    box-shadow: 0 0 10px var(--main-Color);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--main-Color);
+    border: 0;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.workbtn:hover{
+    background-color: var(--text-color);
+    color: var(--main-Color);
+    box-shadow: none;
+}
+.workbtn:active{
+    box-shadow: 0 0 10px var(--text-color);
+}
+
+.My-Work{
+    padding-top: 50px;
+    background-color: #05131b;
+    height: 100%;
+}
+.My-Work span{
+    color: var(--main-Color);
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 42%;
+    text-shadow: 0 0 10px var(--main-Color);
+}
+.images{
+    padding-top: 10%;
+    padding-left: 3%;
+}
+.images img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px var(--main-Color);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 0px 0px 30px black;
+    font-family: var(--main-font);
+    color: var(--text-color);
+    background-color: var(--BG2-Color);
+}
+.footer-topBtn a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: var(--text-color);
+    background: var(--main-Color);
+}
+.Fsocial-icons svg{
+    height: 35px;
+    width: 35px;
+    fill: var(--main-Color);
+}
+.footer-topBtn a{transition: 0.3s; transform: scale(1.5);}
+.footer-topBtn:hover a{
+    transform: scale(1.9);
+}
+.footer .T{
+    float: right;
+}
