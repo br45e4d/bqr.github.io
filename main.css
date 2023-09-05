@@ -84,13 +84,13 @@ body{
 .My-Work{
     padding-top: 50px;
     background-color: #05131b;
-    height: 100%;
+    height: 1000px;
 }
 .My-Work span{
     color: var(--main-Color);
     font-size: 50px;
     font-weight: bold;
-    margin-left: 42%;
+    margin-left: 90%;
     text-shadow: 0 0 10px var(--main-Color);
 }
 .images{
@@ -98,11 +98,11 @@ body{
     padding-left: 3%;
 }
 .images img{
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
+    width: 285px;
+    height: 180px;
+    border-radius: 1px;
     margin: 10px;
-    box-shadow: 0 0 10px var(--main-Color);
+    box-shadow: 0 0 0px var(--main-Color);
 }
 
 .footer{
