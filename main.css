@@ -5,8 +5,8 @@
 }
 
 :root{
-    --BG-Color: #081c29;
-    --main-Color: #00ffff;
+    --BG-Color: rgb(0, 0, 0);
+    --main-Color: #6e6e6e;
     --text-color: #fff;
 
     --main-font: 'Lilita One';
@@ -83,7 +83,7 @@ body{
 
 .My-Work{
     padding-top: 50px;
-    background-color: #05131b;
+    background-color: #000000;
     height: 1000px;
 }
 .My-Work span{
